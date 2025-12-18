@@ -15,29 +15,34 @@ function HomePage({ searchQuery }) {
         ingredient.toLowerCase().includes(searchQuery.toLowerCase())
       );
 
-    const matchesCategory = selectedCategory === 'All' || recipe.category === selectedCategory;
+    const matchesCategory =
+      selectedCategory === 'All' || recipe.category === selectedCategory;
 
     return matchesSearch && matchesCategory;
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-filipino-cream to-white">
-      {/* HERO SECTION */}
-      <div className="bg-filipino-red text-white py-16">
+    <div className="w-screen min-h-screen bg-gradient-to-b from-filipino-cream to-white">
+
+      {/* ================= HERO SECTION (REDUCED HEIGHT) ================= */}
+      <section className="h-[25vh] bg-filipino-red text-white flex items-center justify-center">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-16 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Discover Authentic Filipino Cuisine
           </h1>
           <p className="text-lg md:text-xl text-filipino-light-gold max-w-2xl mx-auto">
-            Explore traditional recipes passed down through generations. From savory adobo to sweet halo-halo,
-            experience the rich flavors of the Philippines.
+            Explore traditional recipes passed down through generations.
+            From savory adobo to sweet halo-halo, experience the rich flavors
+            of the Philippines.
           </p>
         </div>
-      </div>
+      </section>
 
-      {/* MAIN CONTENT */}
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-16 text-center py-12">
-        <div className="flex flex-wrap gap-3 mb-8 justify-center">
+      {/* ================= MAIN CONTENT ================= */}
+      <section className="max-w-[1400px] mx-auto px-6 lg:px-16 py-16 text-center">
+
+        {/* CATEGORY FILTER */}
+        <div className="flex flex-wrap gap-3 mb-10 justify-center">
           {categories.map(category => (
             <button
               key={category}
@@ -53,16 +58,24 @@ function HomePage({ searchQuery }) {
           ))}
         </div>
 
+        {/* RESULTS */}
         {filteredRecipes.length === 0 ? (
-          <div className="text-center py-16">
-            <p className="text-2xl text-gray-500">No recipes found matching your search.</p>
-            <p className="text-gray-400 mt-2">Try different keywords or browse all recipes.</p>
+          <div className="py-20">
+            <p className="text-2xl text-gray-500">
+              No recipes found matching your search.
+            </p>
+            <p className="text-gray-400 mt-2">
+              Try different keywords or browse all recipes.
+            </p>
           </div>
         ) : (
           <>
-            <div className="mb-6">
+            <div className="mb-8">
               <p className="text-gray-600 text-lg">
-                Showing <span className="font-bold text-filipino-red">{filteredRecipes.length}</span>{' '}
+                Showing{' '}
+                <span className="font-bold text-filipino-red">
+                  {filteredRecipes.length}
+                </span>{' '}
                 recipe{filteredRecipes.length !== 1 ? 's' : ''}
               </p>
             </div>
@@ -74,7 +87,7 @@ function HomePage({ searchQuery }) {
             </div>
           </>
         )}
-      </div>
+      </section>
     </div>
   );
 }
