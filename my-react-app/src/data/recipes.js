@@ -470,5 +470,484 @@ export const recipes = [
       "Season with salt and pepper. Serve hot with rice."
     ],
     tips: "For a richer sauce, add some grated cheese in the last few minutes. You can also use goat meat for the traditional Kalderetang Kambing."
+  },
+  {
+    id: 15,
+    name: "Laing",
+    category: "Vegetable",
+    description: "Dried taro leaves cooked in coconut milk with chili",
+    image: "/images/laing.jpg",
+    prepTime: "15 minutes",
+    cookTime: "40 minutes",
+    servings: 6,
+    ingredients: [
+      "3 cups dried taro leaves",
+      "2 cups coconut milk",
+      "1 cup coconut cream",
+      "200g pork belly, sliced",
+      "5 cloves garlic, minced",
+      "1 onion, chopped",
+      "2 tbsp shrimp paste",
+      "5-8 dried chili peppers",
+      "Salt to taste"
+    ],
+    instructions: [
+      "In a pot, combine coconut milk, pork, garlic, onion, shrimp paste, and chili.",
+      "Bring to a gentle boil without stirring.",
+      "Add dried taro leaves and simmer for 25 minutes.",
+      "Pour in coconut cream and continue simmering until thick.",
+      "Season with salt and serve hot with rice."
+    ],
+    tips: "Do not stir the taro leaves until fully softened to avoid itchiness."
+  },
+  {
+    id: 16,
+    name: "Bangus Sisig",
+    category: "Main Course",
+    description: "Crispy milkfish mixed with onions and calamansi",
+    image: "/images/bangus-sisig.jpg",
+    prepTime: "20 minutes",
+    cookTime: "25 minutes",
+    servings: 4,
+    ingredients: [
+      "500g bangus (milkfish), grilled or fried",
+      "1 large onion, chopped",
+      "3 tbsp calamansi juice",
+      "2 tbsp mayonnaise",
+      "1 tsp black pepper",
+      "Salt to taste",
+      "Butter for sizzling"
+    ],
+    instructions: [
+      "Flake the grilled or fried bangus, removing bones.",
+      "In a bowl, combine fish, onion, calamansi juice, mayonnaise, and pepper.",
+      "Heat a sizzling plate with butter.",
+      "Transfer mixture to plate and serve immediately."
+    ],
+    tips: "Bangus sisig is a lighter alternative to pork sisig."
+  },
+  {
+    id: 17,
+    name: "Tapsilog",
+    category: "Breakfast",
+    description: "Cured beef served with garlic rice and fried egg",
+    image: "/images/tapsilog.jpg",
+    prepTime: "8 hours",
+    cookTime: "15 minutes",
+    servings: 2,
+    ingredients: [
+      "500g beef sirloin, sliced thin",
+      "1/4 cup soy sauce",
+      "3 cloves garlic, minced",
+      "1 tbsp sugar",
+      "2 cups garlic rice",
+      "2 eggs",
+      "Oil for frying"
+    ],
+    instructions: [
+      "Marinate beef in soy sauce, garlic, and sugar overnight.",
+      "Pan-fry beef until cooked and caramelized.",
+      "Fry eggs sunny-side up.",
+      "Serve beef with garlic rice and egg."
+    ],
+    tips: "A squeeze of calamansi enhances the flavor."
+  },
+  {
+    id: 18,
+    name: "Ginataang Kalabasa at Sitaw",
+    category: "Vegetable",
+    description: "Squash and string beans cooked in coconut milk",
+    image: "/images/ginataan.jpg",
+    prepTime: "15 minutes",
+    cookTime: "25 minutes",
+    servings: 6,
+    ingredients: [
+      "2 cups squash, cubed",
+      "1 cup string beans, cut",
+      "1 cup coconut milk",
+      "200g shrimp or pork",
+      "3 cloves garlic, minced",
+      "1 onion, sliced",
+      "2 tbsp shrimp paste",
+      "Salt to taste"
+    ],
+    instructions: [
+      "Sauté garlic and onion until fragrant.",
+      "Add shrimp or pork and cook briefly.",
+      "Add squash and coconut milk. Simmer for 10 minutes.",
+      "Add string beans and cook until tender.",
+      "Season with salt and serve."
+    ],
+    tips: "Best served with fried fish on the side."
+  },
+  {
+    id: 19,
+    name: "Puto",
+    category: "Dessert",
+    description: "Soft and fluffy steamed rice cakes",
+    image: "/images/puto.jpg",
+    prepTime: "10 minutes",
+    cookTime: "15 minutes",
+    servings: 8,
+    ingredients: [
+      "2 cups rice flour",
+      "1 cup sugar",
+      "1 tbsp baking powder",
+      "1 1/2 cups water",
+      "Cheese slices for topping"
+    ],
+    instructions: [
+      "Mix rice flour, sugar, baking powder, and water.",
+      "Pour into greased molds.",
+      "Top with cheese.",
+      "Steam for 12–15 minutes until cooked."
+    ],
+    tips: "Perfect partner for dinuguan."
+  },
+  {
+    id: 20,
+    name: "Dinuguan",
+    category: "Main Course",
+    description: "Savory pork stew cooked in pig’s blood",
+    image: "/images/dinuguan.png",
+    prepTime: "20 minutes",
+    cookTime: "50 minutes",
+    servings: 6,
+    ingredients: [
+      "1 kg pork meat and innards",
+      "1 cup pig’s blood",
+      "1 onion, chopped",
+      "5 cloves garlic, minced",
+      "3 tbsp vinegar",
+      "2 cups water",
+      "2 tbsp cooking oil",
+      "Salt and chili to taste"
+    ],
+    instructions: [
+      "Sauté garlic and onion until fragrant.",
+      "Add pork and cook until browned.",
+      "Pour in water and simmer until tender.",
+      "Add vinegar and let boil without stirring.",
+      "Add pig’s blood and stir gently until thick.",
+      "Season and serve hot."
+    ],
+    tips: "Always boil after adding vinegar to remove raw taste."
+  },
+  {
+    id: 21,
+    name: "Beef Tapa",
+    category: "Main Course",
+    description: "Sweet and savory cured beef",
+    image: "/images/beef-tapa.jpg",
+    prepTime: "8 hours",
+    cookTime: "15 minutes",
+    servings: 4,
+    ingredients: [
+      "1 kg beef sirloin, sliced thin",
+      "1/2 cup soy sauce",
+      "4 cloves garlic, minced",
+      "3 tbsp sugar",
+      "1 tsp black pepper"
+    ],
+    instructions: [
+      "Marinate beef in soy sauce, garlic, sugar, and pepper overnight.",
+      "Heat oil in pan and fry beef until caramelized.",
+      "Serve hot with rice."
+    ],
+    tips: "Best paired with garlic rice and egg."
+  },
+  {
+    id: 22,
+    name: "Menudo",
+    category: "Main Course",
+    description: "Pork stew with liver and vegetables in tomato sauce",
+    image: "/images/menudo.jpg",
+    prepTime: "20 minutes",
+    cookTime: "45 minutes",
+    servings: 6,
+    ingredients: [
+      "1 kg pork, cubed",
+      "250g pork liver",
+      "2 potatoes, cubed",
+      "2 carrots, cubed",
+      "1 cup tomato sauce",
+      "1 onion, chopped",
+      "4 cloves garlic, minced"
+    ],
+    instructions: [
+      "Sauté garlic and onion.",
+      "Add pork and cook until browned.",
+      "Add tomato sauce and simmer until tender.",
+      "Add vegetables and liver. Cook until done."
+    ],
+    tips: "Add hotdogs for a fiesta-style menudo."
+  },
+  {
+    id: 23,
+    name: "Bulalo",
+    category: "Soup",
+    description: "Beef shank soup with bone marrow",
+    image: "/images/bulalo.jpg",
+    prepTime: "15 minutes",
+    cookTime: "2 hours",
+    servings: 6,
+    ingredients: [
+      "1.5 kg beef shank",
+      "1 corn on the cob, sliced",
+      "1 onion",
+      "2 tbsp fish sauce",
+      "10 cups water"
+    ],
+    instructions: [
+      "Boil beef until tender.",
+      "Add corn and onion.",
+      "Season and simmer."
+    ],
+    tips: "Skim fat for clearer broth."
+  },
+  {
+    id: 24,
+    name: "Miswa with Patola",
+    category: "Soup",
+    description: "Light noodle soup with sponge gourd",
+    image: "/images/miswa-with-patola.jpg",
+    prepTime: "10 minutes",
+    cookTime: "15 minutes",
+    servings: 4,
+    ingredients: [
+      "1 pack miswa noodles",
+      "1 patola, sliced",
+      "200g ground pork",
+      "3 cloves garlic",
+      "4 cups water"
+    ],
+    instructions: [
+      "Sauté garlic and pork.",
+      "Add water and patola.",
+      "Add miswa and cook briefly."
+    ],
+    tips: "Miswa cooks very fast—add last."
+  },
+  {
+    id: 25,
+    name: "Pancit Bihon",
+    category: "Noodles",
+    description: "Rice noodles stir-fried with meat and vegetables",
+    image: "/images/pansit-bihon.jpg",
+    prepTime: "15 minutes",
+    cookTime: "20 minutes",
+    servings: 6,
+    ingredients: [
+      "500g bihon noodles",
+      "300g chicken",
+      "1 carrot, julienned",
+      "1 cup cabbage",
+      "1/4 cup soy sauce",
+      "2 cups broth"
+    ],
+    instructions: [
+      "Sauté meat and vegetables.",
+      "Add broth and soy sauce.",
+      "Add noodles and toss."
+    ],
+    tips: "Serve with calamansi."
+  },
+  {
+    id: 26,
+    name: "Sotanghon Guisado",
+    category: "Noodles",
+    description: "Glass noodles with chicken and vegetables",
+    image: "/images/sotanghon-gisado.jpg",
+    prepTime: "15 minutes",
+    cookTime: "20 minutes",
+    servings: 6,
+    ingredients: [
+      "250g sotanghon noodles",
+      "300g chicken",
+      "1 carrot",
+      "1 onion",
+      "2 cups broth"
+    ],
+    instructions: [
+      "Sauté chicken and onion.",
+      "Add broth and noodles.",
+      "Cook until noodles absorb liquid."
+    ],
+    tips: "Use annatto oil for color."
+  },
+  {
+    id: 27,
+    name: "Bibingka",
+    category: "Dessert",
+    description: "Traditional Filipino rice cake",
+    image: "/images/bibingka.jpg",
+    prepTime: "15 minutes",
+    cookTime: "25 minutes",
+    servings: 6,
+    ingredients: [
+      "2 cups rice flour",
+      "1 cup coconut milk",
+      "1/2 cup sugar",
+      "2 eggs",
+      "Salted egg and cheese"
+    ],
+    instructions: [
+      "Mix all ingredients.",
+      "Pour into mold.",
+      "Bake until set."
+    ],
+    tips: "Best served with butter and sugar."
+  },
+  {
+    id: 28,
+    name: "Suman",
+    category: "Dessert",
+    description: "Sticky rice wrapped in banana leaves",
+    image: "/images/suman.jpg",
+    prepTime: "20 minutes",
+    cookTime: "1 hour",
+    servings: 8,
+    ingredients: [
+      "2 cups glutinous rice",
+      "1 1/2 cups coconut milk",
+      "1 tsp salt",
+      "Banana leaves"
+    ],
+    instructions: [
+      "Cook rice with coconut milk.",
+      "Wrap in banana leaves.",
+      "Steam until firm."
+    ],
+    tips: "Serve with latik or sugar."
+  },
+  {
+    id: 29,
+    name: "Tokwa’t Baboy",
+    category: "Appetizer",
+    description: "Fried tofu and pork with vinegar sauce",
+    image: "/images/tokwat-baboy.jpg",
+    prepTime: "15 minutes",
+    cookTime: "20 minutes",
+    servings: 4,
+    ingredients: [
+      "200g tofu, fried",
+      "300g pork belly, boiled",
+      "1/4 cup vinegar",
+      "1 onion",
+      "Chili"
+    ],
+    instructions: [
+      "Combine tofu and pork.",
+      "Pour vinegar sauce.",
+      "Mix and serve."
+    ],
+    tips: "Great pulutan dish."
+  },
+  {
+    id: 30,
+    name: "Chicharon Bulaklak",
+    category: "Appetizer",
+    description: "Deep-fried pork mesentery",
+    image: "/images/chicharon-bulaklak.jpg",
+    prepTime: "20 minutes",
+    cookTime: "30 minutes",
+    servings: 6,
+    ingredients: [
+      "1 kg pork ruffle fat",
+      "Salt",
+      "Oil"
+    ],
+    instructions: [
+      "Boil pork until tender.",
+      "Deep fry until crispy.",
+      "Season and serve."
+    ],
+    tips: "Serve with spiced vinegar."
+  },
+  {
+    id: 31,
+    name: "Ginisang Monggo",
+    category: "Vegetable",
+    description: "Mung bean stew with malunggay",
+    image: "/images/ginisang-monggo.webp",
+    prepTime: "15 minutes",
+    cookTime: "40 minutes",
+    servings: 6,
+    ingredients: [
+      "1 cup mung beans",
+      "200g pork or shrimp",
+      "Malunggay leaves",
+      "Garlic and onion"
+    ],
+    instructions: [
+      "Boil mung beans until soft.",
+      "Sauté garlic, onion, and meat.",
+      "Combine and add leaves."
+    ],
+    tips: "Traditionally served on Fridays."
+  },
+  {
+    id: 32,
+    name: "Ensaladang Talong",
+    category: "Vegetable",
+    description: "Grilled eggplant salad",
+    image: "/images/ensaladang-talong.webp",
+    prepTime: "10 minutes",
+    cookTime: "10 minutes",
+    servings: 4,
+    ingredients: [
+      "2 eggplants",
+      "1 tomato",
+      "1 onion",
+      "Salt"
+    ],
+    instructions: [
+      "Grill eggplant.",
+      "Peel and mash.",
+      "Mix with vegetables."
+    ],
+    tips: "Best with grilled fish."
+  },
+  {
+    id: 33,
+    name: "Longsilog",
+    category: "Breakfast",
+    description: "Sweet sausage with rice and egg",
+    image: "/images/longsilog.jpg",
+    prepTime: "10 minutes",
+    cookTime: "15 minutes",
+    servings: 2,
+    ingredients: [
+      "6 longganisa",
+      "2 cups garlic rice",
+      "2 eggs"
+    ],
+    instructions: [
+      "Fry longganisa.",
+      "Cook eggs.",
+      "Serve with rice."
+    ],
+    tips: "Best enjoyed with vinegar dip."
+  },
+  {
+    id: 34,
+    name: "Bangsilog",
+    category: "Breakfast",
+    description: "Fried milkfish with egg and garlic rice",
+    image: "/images/bangsilog.webp",
+    prepTime: "10 minutes",
+    cookTime: "15 minutes",
+    servings: 2,
+    ingredients: [
+      "2 bangus slices",
+      "2 cups garlic rice",
+      "2 eggs"
+    ],
+    instructions: [
+      "Fry bangus until golden.",
+      "Cook eggs.",
+      "Serve together."
+    ],
+    tips: "Serve with tomatoes and vinegar."
   }
 ];
