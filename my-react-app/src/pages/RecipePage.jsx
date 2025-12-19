@@ -106,7 +106,7 @@ function RecipePage() {
                     {recipe.ingredients.map((ingredient, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <span className="w-2 h-2 bg-filipino-red rounded-full mt-2 flex-shrink-0"></span>
-                        <span className="text-sm sm:text-gray-700">
+                        <span className="text-sm text-gray-700">
                           {ingredient}
                         </span>
                       </li>
@@ -126,7 +126,7 @@ function RecipePage() {
                         <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 bg-filipino-red text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-base">
                           {index + 1}
                         </div>
-                        <p className="text-sm sm:text-gray-700 pt-1 sm:pt-2 leading-relaxed">
+                        <p className="text-sm text-gray-700 pt-1 sm:pt-2 leading-relaxed">
                           {instruction}
                         </p>
                       </div>
@@ -142,7 +142,7 @@ function RecipePage() {
                         <h3 className="text-sm sm:text-lg font-bold text-gray-800 mb-1 sm:mb-2">
                           Cooking Tips
                         </h3>
-                        <p className="text-sm sm:text-gray-700">
+                        <p className="text-sm text-gray-700">
                           {recipe.tips}
                         </p>
                       </div>
