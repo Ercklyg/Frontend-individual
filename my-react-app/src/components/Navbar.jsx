@@ -11,7 +11,7 @@ function Navbar({ searchQuery, onSearchChange }) {
           <Link to="/" className="flex items-center space-x-3 group">
             <ChefHat className="w-10 h-10 text-filipino-gold group-hover:scale-110 transition-transform" />
             <div>
-              <h1 className="text-2xl font-bold text-white">Luto Pinoy</h1>
+              <h1 className="text-2xl font-bold text-white">Lutong Mother</h1>
               <p className="text-filipino-light-gold text-sm">Filipino Kitchen</p>
             </div>
           </Link>
